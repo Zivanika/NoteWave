@@ -6,25 +6,20 @@ import{
   Link
 } from "react-router-dom"
 import Navbar from './components/Navbar'
-// import {Home} from './components/Home'
-// import {About} from './components/About'
-import Abouts from './components/Abouts';
-import Homes from './components/Homes';
+import Home from './components/Home'
+import About from './components/About'
+
 function App() {
   return (
     <>
     <Router>
     <Navbar/>
     <Routes>
-      <Route exact path="/about">
-       < Abouts/>
-      </Route>
+      <Route exact path="/about" element={<About/>}/>
       {/* <Route exact path="/users">
         <Users/>
       </Route> */}
-      <Route exact path="/">
-        <Homes/>
-        </Route> 
+      <Route exact path="/" element={<Home/>}/>
     </Routes>
     </Router>
     
