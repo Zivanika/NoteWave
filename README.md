@@ -60,7 +60,7 @@ You may also see any errors in the console.
 </dl>
 
 ## 📌 Screenshots:
-![home](/img/homepage.png)
+![homepage](/img/home.png)
 <!-- ![notes](/img/Home.png) -->
 ![login](/img/Login.png)
 ![OTP](/img/otp.png)

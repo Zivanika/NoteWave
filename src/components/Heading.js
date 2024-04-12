@@ -29,7 +29,7 @@ const Heading = () => {
   return (
     <div className='h-48 w-full relative flex spacing'>
       <img className='h-44 w-full relative object-fill' src={timeOfDay === 'day' ? image.day : image.night} alt="" srcset="" />
-      <h1 className={`absolute top-24 left-20 font-extrabold text-5xl font-serif ${timeOfDay === 'day'?'text-slate-800':'text-white'}`}>{!timeOfDay==='day'?"Good Morning!":"Good Night!"}</h1>
+      <h1 className={`absolute top-24 left-20 font-extrabold text-5xl font-serif ${timeOfDay === 'day'?'text-slate-800':'text-white'}`}>{timeOfDay==='day'?"Good Morning!":"Good Night!"}</h1>
       <h1 className={`absolute top-36 mt-1 left-24 font-semibold ${timeOfDay === 'day'?'text-slate-800':'text-white'}`}>{dayOfWeek}, {formattedDate}</h1>
      <div className='absolute translate-x-9 right-12 top-12'><QuickNote/></div> 
     </div>
