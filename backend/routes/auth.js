@@ -290,7 +290,7 @@ router.post("/forgot-password",async(req,res)=>{
             to: user.email, // list of receivers
             subject: "Reset Your NoteWave Password", // Subject line
             html: PasswordResetTemplate(
-                `http://localhost:3000/reset-password?token=${passwordToken}&id=${user._id}`
+                `https://notewave-7xuk.onrender.com/reset-password?token=${passwordToken}&id=${user._id}`
             ),
             attachments: [
               {
