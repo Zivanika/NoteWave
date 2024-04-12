@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/NoteWave/static/css/main.80f57df5.css",
-    "main.js": "/NoteWave/static/js/main.a237cfc5.js",
+    "main.js": "/NoteWave/static/js/main.f846a920.js",
     "static/media/coolvetica.otf": "/NoteWave/static/media/coolvetica.3d81d0e1fdbd5f69b232.otf",
     "static/media/Pulse.gif": "/NoteWave/static/media/Pulse.da459f0ee2ef70b76357.gif",
     "static/media/Chopsic.otf": "/NoteWave/static/media/Chopsic.afa6fa672315bef761c0.otf",
     "index.html": "/NoteWave/index.html",
     "main.80f57df5.css.map": "/NoteWave/static/css/main.80f57df5.css.map",
-    "main.a237cfc5.js.map": "/NoteWave/static/js/main.a237cfc5.js.map"
+    "main.f846a920.js.map": "/NoteWave/static/js/main.f846a920.js.map"
   },
   "entrypoints": [
     "static/css/main.80f57df5.css",
-    "static/js/main.a237cfc5.js"
+    "static/js/main.f846a920.js"
   ]
 }
