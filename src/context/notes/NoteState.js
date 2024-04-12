@@ -3,7 +3,7 @@ import { useState } from "react";
 import { useDispatch } from "react-redux";
 import { showMessage } from "../../context/../store/reducers/notificationSlice";
 const NoteState=(props)=>{
-    const host="http://localhost:5000"
+    const host="https://notewave-backend-hnf2.onrender.com"
     const[notes,setNotes]=useState([]);
     const dispatch=useDispatch();
      // Get all notes

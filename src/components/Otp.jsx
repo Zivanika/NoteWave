@@ -7,7 +7,8 @@ import { useDispatch } from "react-redux";
 import { showMessage } from "../store/reducers/notificationSlice";
 const inputs = Array(4).fill(""); // create a blank array of 4 index
 let newInputIndex = 0;
-const baseURL = "http://localhost:5000/api/auth";
+const baseURL = "https://notewave-backend-hnf2.onrender.com/api/auth";
+// const baseURL = "http://localhost:5000/api/auth";
 const Otp = (props) => {
   const navigate = useNavigate();
   const dispatch=useDispatch();
