@@ -1,0 +1,212 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@font-face {
+  font-family: Chopsic;
+  src: url("../src/fonts/Chopsic.otf");
+
+}
+@font-face {
+  font-family: Coolvetica;
+  src: url("../src/fonts/coolvetica.otf");
+  
+}
+.sidebar{
+  transform: translateX(-200px);
+}
+.wrapper {
+  font-family: "Roboto", Arial, sans-serif;
+  width: 14rem;
+  max-width: 41.25rem;
+  /* margin: 0rem auto; */
+}
+.searchBar {
+  width: 11rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 1px solid rgba(220, 220, 220, 0.719);
+}
+.box {
+  margin: 2px 2px 0px 10px;
+  display: flex ;
+  /* width: 42rem; */
+  flex-wrap: wrap;
+  /* height: 25rem; */
+  /* justify-content: space-between; */
+  /* max-height: 31rem; */
+  overflow-y:scroll ;
+  overflow-x: hidden;
+  /* border: 2px solid green; */
+  background-size: 40px 40px;
+  background-image:
+    linear-gradient(to right, rgb(189, 183, 183) 1px, transparent 1px),
+    linear-gradient(to bottom, grey 1px, transparent 1px);
+}
+.white-square-grid-40px {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40'%3E%3Crect width='40' height='40' fill='%23fff' /%3E%3Crect x='50%' width='1' height='100%' fill='%23ddd' /%3E%3Crect y='50%' width='100%' height='1' fill='%23ddd' /%3E%3C/svg%3E%0A");
+}
+
+.example-box {
+  width: 100vw;
+  height: 100px;
+}
+
+.b-border{
+  width: 13rem;
+  background: transparent;
+  border-bottom: 1px solid rgba(209, 111, 12, 0.719);
+  outline: none;
+}
+#searchQueryInput {
+  width: 100%;
+  height: 2.8rem;
+  background: transparent;
+  color: rgba(245, 245, 245, 0.765);
+  outline: none;
+  border: none;
+  border-radius: 1.625rem;
+  padding: 0 3.5rem 0 1.5rem;
+  font-size: 1rem;
+}
+
+#searchQuerySubmit {
+  width: 3.5rem;
+  height: 2.8rem;
+  margin-left: -3.5rem;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+#searchQuerySubmit:hover {
+  cursor: pointer;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.noteitem {
+  background: linear-gradient(-45deg, transparent 35px, #91f544 0)bottom left;
+}
+.spacing{
+  justify-content: space-between;
+}
+.article::after{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: inline-block;
+  width: 3em;
+  height: 3em;
+  background: rgb(201, 151, 90);
+  background: linear-gradient(-45deg, transparent 35px, #537e32 0)bottom right;
+}
+/* .article::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: inline-block;
+} */
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-5px);
+  }
+  50% {
+    transform: translateX(5px);
+  }
+  75% {
+    transform: translateX(-5px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.Shake {
+  animation:shake0.5s;
+}
+.wrong-otp {
+  outline: 2px solid red !important;
+}
+.wrong-otp:focus {
+  outline: 2px solid red !important;
+}
+.correct-otp {
+  outline: 3px solid rgb(9, 176, 9) !important;
+}
+.correct-otp:focus {
+  outline: 3px solid rgb(9, 176, 9) !important;
+}
+
+.page {
+  max-width: 210px;
+  height: 155px;
+  margin: auto;
+  padding-left: 40px;
+  background-color:#f8ecd4;
+  /* box-shadow: 1px 1px 2px 1px #777, -1px 0 2px 1px #777; */
+  border-radius: 2px;
+  flex: 0 0 400px;
+  position: relative;
+}
+.page-horizontal-lines {
+  max-width: 400px;
+  height: 36px;
+  margin-left: -40px;
+  border-bottom: 1px solid rgba(209, 111, 12, 0.719);
+}
+.text-box {
+  position: absolute;
+  top: 0px;
+  left: 0%;
+  text-align: start;
+  width: 200px;
+  height:150px;
+  letter-spacing: 2px;
+  padding: 5.5px 10px 0 5px;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  font-size: 18px;
+  line-height: 1.9;
+  resize: none;
+  overflow: hidden;
+  /* background-color: #00f; */
+}
