@@ -19,7 +19,7 @@ const Login = (props) => {
     e.preventDefault();
     try {
       setBusy(true);
-      const response = await fetch("https://notewave-backend-hnf2.onrender.com/api/auth/login", {
+      const response = await fetch("http://localhost:5000/api/auth/login", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -51,7 +51,7 @@ const Login = (props) => {
     try {
       setBusy(true);
       const response = await fetch(
-        "https://notewave-backend-hnf2.onrender.com/api/auth/createuser",
+        "http://localhost:5000/api/auth/createuser",
         {
           method: "POST",
           headers: {

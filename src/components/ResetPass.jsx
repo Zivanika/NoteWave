@@ -10,8 +10,8 @@ import { Link } from 'react-router-dom';
 import VerifiedIcon from '@mui/icons-material/Verified';
 import { useDispatch } from "react-redux";
 import { showMessage } from "../store/reducers/notificationSlice";
-// const baseURL = "http://localhost:5000/api/auth";
-const baseURL="https://notewave-backend-hnf2.onrender.com/api/auth";
+const baseURL = "http://localhost:5000/api/auth";
+// const baseURL="https://notewave-backend-hnf2.onrender.com/api/auth";
 const Resetpass = () => {
   const dispatch = useDispatch();
     const location = useLocation(); //because location has the pathname (url) and search paramenter which has the query

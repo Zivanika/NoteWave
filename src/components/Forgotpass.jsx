@@ -5,7 +5,7 @@ import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
 import BarLoader from './BarLoader';
 import { useDispatch } from "react-redux";
 import { showMessage } from "../store/reducers/notificationSlice";
-const baseURL = "https://notewave-backend-hnf2.onrender.com/api/auth";
+const baseURL = "http://localhost:5000/api/auth";
 
 const Forgotpass = () => {
     const navigate=useNavigate()
