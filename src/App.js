@@ -63,7 +63,7 @@ function App() {
     <Route exact path="/confirmpass" element={<Confirmpass/>}/>
     <Route exact path="/reset-password" element={<ResetPass/>}/>
     <Route exact path="/forgotpassword" element={<Forgotpass/>}/>
-    <Route exact path="/" element={<Homes/>}/>
+    <Route exact path="/NoteWave" element={<Homes/>}/>
     <Route exact path="/otp" element={<Otp ID={ID}/>}/>
     <Route exact path="/login" element={<Login setID={setID}/>}/>
     {/* <Route exact path="/signup" element={<Signup/>}/> */}
