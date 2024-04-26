@@ -3,7 +3,7 @@
 <p>
 **# Never miss a thought again!  **
 
-Introducing NoteWave – a beautifully crafted web app designed to keep your notes organized, secure, and accessible from anywhere. iNoteBook is a secure cloud-based note storage solution. Organize effortlessly with our user-friendly interface. Start your journey with iNotebook today!"</p>
+Introducing NoteWave – a beautifully crafted web app designed to keep your notes organized, secure, and accessible from anywhere. NoteWave is a secure cloud-based note storage solution. Organize effortlessly with our user-friendly interface. Start your journey with NoteWave today!"</p>
 
 [Visit Now](https://zivanika.github.io/login) 🚀
 ### npm start
